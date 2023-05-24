@@ -1,0 +1,339 @@
+/*Style
+--------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Open+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+/* GLOBAL STYLE
+--------------------------------------------
+*/
+
+body{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: #000000; /* black */ 
+}
+#wrapper {
+	position: relative;
+	max-width: 1200px;
+    width: 99%;
+	margin: 0 auto;
+
+}
+        
+}
+h1 {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.6em;
+	font-weight: 700;
+}
+
+/* HEADER
+--------------------------------------------
+*/
+
+header {
+    background-color: #03f07a;
+    height: 243px;
+    color: #000000;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+    visibility: 
+}
+
+/* NAVIGATION
+--------------------------------------------
+*/
+
+nav {
+    background-color: rgba(0,0,0,0.50);
+    position: absolute;
+    top: 0px; left: 0px;
+    width: 100%;
+    padding-top: 45px;
+}
+
+nav ul{
+    padding-left: 200px;
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a:hover{
+    background-color: #87CEEB; /* background color */
+    color: #FFFAF0; /* text colour */
+    
+}
+nav a { 
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px 15px 20px;
+}
+
+a {
+    color: #ffffff;
+}
+a:visited {
+    color: #03f07a;
+}
+
+nav span{
+    padding: 10px 20px 15px 20px;
+    background-color: #356d81;
+    color: #ffffff;
+}
+
+/* TITLE
+--------------------------------------------*/
+
+TITLE{
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* HEADER 
+--------------------------------------------*/
+
+Header{
+    color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Social media Image crop
+--------------------------------------------
+*/
+
+#imagecrop{
+    margin: 10px 0;
+    
+}
+
+#imagecrop section {
+    padding: 0 40px;
+}
+/*EmailNumber
+--------------------------------------------
+*/
+
+#EmailNumber {
+    background-color:#30637a;
+    padding: 25px;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* CONTENT 1
+--------------------------------------------
+*/
+
+/*main content details*/
+#Content1{
+    background-color: #f8f8f8;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #f8f8f8;
+    text-align: center;
+}
+/*content in h2*/
+#Content1 h2{
+    font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/*details for each paragraph*/
+#Content1 p{
+     font-size: 16px;
+  line-height: 1.5;
+}
+
+/* TWO-COLUMNS1 INFORMATION
+--------------------------------------------
+*/
+
+#two-columns1{
+    display: flex;
+    background-color:#30637a;
+    padding: 25px;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#two-columns1 div{
+    padding-left: 25px;
+}
+
+#two-columns1 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: 1px solid #ffffff;
+    padding: 4px 15px;
+}
+
+
+/* TWO-COLUMNS2 INFORMATION
+--------------------------------------------
+*/
+
+#two-columns2{
+    display: flex;
+    background-color:#307a7a;
+    padding: 25px;
+    color: #ffffff;
+}
+
+#two-columns2 div{
+    padding-left: 25px;
+}
+
+#two-columns2 a {
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    font-size: 1.2em;
+    padding: 4px 15px;
+}
+
+
+/* TWO-COLUMNS3 INFORMATION
+--------------------------------------------
+*/
+
+#two-columns3{
+    display: flex;
+    background-color:#308f7a;
+    padding: 25px;
+    color: #ffffff;
+}
+
+#two-columns3 div{
+    padding-left: 25px;
+}
+
+#two-columns3 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: 1px solid #ffffff;
+    padding: 4px 15px;
+}
+
+/* TWO-COLUMNS4 INFORMATION
+--------------------------------------------
+*/
+
+#two-columns4{
+    display: flex;
+    background-color:#30a17a;
+    padding: 25px;
+    color: #ffffff;
+}
+
+#two-columns4 div{
+    padding-left: 25px;
+}
+
+#two-columns4 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 4px 15px;
+}
+
+/* TWO-COLUMNS5 INFORMATION
+--------------------------------------------
+*/
+
+#two-columns5{
+    display: flex;
+    background-color:#30ba7a;
+    padding: 25px;
+    color: #ffffff;
+}
+
+#two-columns5 div{
+    padding-left: 25px;
+}
+
+#two-columns5 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: 1px solid #ffffff;
+    padding: 4px 15px;
+}
+
+/* TWO-COLUMNS6 INFORMATION
+--------------------------------------------
+*/
+
+#two-columns6{
+    display: flex;
+    background-color:#30cc7a;
+    padding: 25px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#two-columns6 div{
+    padding-left: 25px;
+}
+
+#two-columns6 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: 1px solid #ffffff;
+    padding: 4px 15px;
+}
+
+/* CONTENT 2
+--------------------------------------------
+*/
+
+#Content2{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background: #000000;
+}
+
+#Content2 h2{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+/* BACK TO TOP
+--------------------------------------------
+*/
+
+BTT{
+    text-align: center;
+}
+
+/* FOOTER
+--------------------------------------------
+*/
+
+#footer{
+    background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
